@@ -159,7 +159,7 @@ Cell[BoxData[
       RowBox[{
        RowBox[{"(", 
         RowBox[{"41", "*", "nu", "*", 
-         RowBox[{"Pi", "**", "2"}]}], ")"}], "/", "96"}], "+", 
+         RowBox[{"Pi", "^", "2"}]}], ")"}], "/", "96"}], "+", 
       RowBox[{
        RowBox[{"(", 
         RowBox[{"2", "*", "Pi", "*", 
@@ -329,7 +329,7 @@ Cell[BoxData[
            RowBox[{"26", ",", "21"}], "]"}], "*", "EulerGamma"}], "+", 
          RowBox[{"(", 
           RowBox[{
-           RowBox[{"Pi", "**", "2"}], "/", "6"}], ")"}], "-", 
+           RowBox[{"Pi", "^", "2"}], "/", "6"}], ")"}], "-", 
          RowBox[{"2", "*", "I", "*", "Pi", "*", 
           RowBox[{"(", 
            RowBox[{
@@ -347,15 +347,15 @@ Cell[BoxData[
             RowBox[{
              RowBox[{"Rational", "[", 
               RowBox[{"41", ",", "8"}], "]"}], "*", 
-             RowBox[{"Pi", "**", "2"}]}]}], ")"}]}], "+", 
+             RowBox[{"Pi", "^", "2"}]}]}], ")"}]}], "+", 
          RowBox[{
           RowBox[{"Rational", "[", 
            RowBox[{"327059", ",", "30888"}], "]"}], "*", 
-          RowBox[{"nu", "**", "2"}]}], "-", 
+          RowBox[{"nu", "^", "2"}]}], "-", 
          RowBox[{
           RowBox[{"Rational", "[", 
            RowBox[{"17525", ",", "15444"}], "]"}], "*", 
-          RowBox[{"nu", "**", "3"}]}]}], ")"}]}], "+", 
+          RowBox[{"nu", "^", "3"}]}]}], ")"}]}], "+", 
       RowBox[{
        RowBox[{"(", 
         RowBox[{"I", "*", 
@@ -566,15 +566,14 @@ Cell[BoxData[
            RowBox[{"(", 
             RowBox[{"Log", "[", 
              RowBox[{"Rational", "[", 
-              RowBox[{"3", ",", "2"}], "]"}], "]"}], ")"}], "**", "2"}]}], 
-         "-", 
+              RowBox[{"3", ",", "2"}], "]"}], "]"}], ")"}], "^", "2"}]}], "-", 
          RowBox[{
           RowBox[{"Rational", "[", 
            RowBox[{"78", ",", "7"}], "]"}], "*", "EulerGamma"}], "+", 
          RowBox[{
           RowBox[{"Rational", "[", 
            RowBox[{"3", ",", "2"}], "]"}], "*", 
-          RowBox[{"Pi", "**", "2"}]}], "+", 
+          RowBox[{"Pi", "^", "2"}]}], "+", 
          RowBox[{"6", "*", "I", "*", "Pi", "*", 
           RowBox[{"(", 
            RowBox[{
@@ -596,15 +595,15 @@ Cell[BoxData[
             RowBox[{
              RowBox[{"Rational", "[", 
               RowBox[{"41", ",", "8"}], "]"}], "*", 
-             RowBox[{"Pi", "**", "2"}]}]}], ")"}]}], "-", 
+             RowBox[{"Pi", "^", "2"}]}]}], ")"}]}], "-", 
          RowBox[{
           RowBox[{"Rational", "[", 
            RowBox[{"318841", ",", "17160"}], "]"}], "*", 
-          RowBox[{"nu", "**", "2"}]}], "+", 
+          RowBox[{"nu", "^", "2"}]}], "+", 
          RowBox[{
           RowBox[{"Rational", "[", 
            RowBox[{"8237", ",", "2860"}], "]"}], "*", 
-          RowBox[{"nu", "**", "3"}]}]}], ")"}]}], "+", 
+          RowBox[{"nu", "^", "3"}]}]}], ")"}]}], "+", 
       RowBox[{
        RowBox[{"(", 
         RowBox[{
@@ -892,9 +891,10 @@ Cell[BoxData[
       "/", 
       RowBox[{"(", 
        RowBox[{"405405", "*", 
-        RowBox[{"Sqrt", "[", "35", "]"}]}], ")"}]}]}], ";"}], "\n", 
+        RowBox[{"Sqrt", "[", "35", "]"}]}], ")"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"ell", "=", "5"}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"ell", "=", "5"}], "*)"}], "\n", 
    RowBox[{
     RowBox[{
      RowBox[{"hHat", "[", 
@@ -1157,9 +1157,10 @@ Cell[BoxData[
              RowBox[{"5", ",", "2"}], "]"}], "]"}]}]}], ")"}]}], ")"}], "/", 
       RowBox[{"(", 
        RowBox[{"6720", "*", 
-        RowBox[{"Sqrt", "[", "66", "]"}]}], ")"}]}]}], ";"}], "\n", 
+        RowBox[{"Sqrt", "[", "66", "]"}]}], ")"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"ell", "=", "6"}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"ell", "=", "6"}], "*)"}], "\n", 
    RowBox[{
     RowBox[{
      RowBox[{"hHat", "[", 
@@ -1333,9 +1334,10 @@ Cell[BoxData[
        ")"}], "/", 
       RowBox[{"(", 
        RowBox[{"35", "*", 
-        RowBox[{"Sqrt", "[", "143", "]"}]}], ")"}]}]}], ";"}], "\n", 
+        RowBox[{"Sqrt", "[", "143", "]"}]}], ")"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"ell", "=", "7"}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"ell", "=", "7"}], "*)"}], "\n", 
    RowBox[{
     RowBox[{
      RowBox[{"hHat", "[", 
@@ -1364,8 +1366,8 @@ Cell[BoxData[
          RowBox[{
           RowBox[{"(", 
            RowBox[{
-            RowBox[{"-", "1"}], "+", "nu"}], ")"}], "**", "2"}], "*", 
-         "nu"}]}], ")"}], "/", 
+            RowBox[{"-", "1"}], "+", "nu"}], ")"}], "^", "2"}], "*", "nu"}]}],
+        ")"}], "/", 
       RowBox[{"(", 
        RowBox[{"3003", "*", 
         RowBox[{"Sqrt", "[", "3", "]"}]}], ")"}]}]}], ";"}], "\n", 
@@ -1407,7 +1409,7 @@ Cell[BoxData[
            RowBox[{
             RowBox[{"(", 
              RowBox[{
-              RowBox[{"-", "1"}], "+", "nu"}], ")"}], "**", "2"}], "*", 
+              RowBox[{"-", "1"}], "+", "nu"}], ")"}], "^", "2"}], "*", 
            "nu"}]}], ")"}]}], ")"}], "/", "1365"}]}], ";"}], "\n", 
    RowBox[{
     RowBox[{
@@ -1447,7 +1449,7 @@ Cell[BoxData[
            RowBox[{
             RowBox[{"(", 
              RowBox[{
-              RowBox[{"-", "1"}], "+", "nu"}], ")"}], "**", "2"}], "*", 
+              RowBox[{"-", "1"}], "+", "nu"}], ")"}], "^", "2"}], "*", 
            "nu"}]}], ")"}]}], ")"}], "/", "35"}]}], ";"}], "\n", 
    RowBox[{
     RowBox[{
@@ -1483,8 +1485,8 @@ Cell[BoxData[
          RowBox[{
           RowBox[{"(", 
            RowBox[{
-            RowBox[{"-", "1"}], "+", "nu"}], ")"}], "**", "2"}], "*", 
-         "nu"}]}], ")"}], "/", 
+            RowBox[{"-", "1"}], "+", "nu"}], ")"}], "^", "2"}], "*", "nu"}]}],
+        ")"}], "/", 
       RowBox[{"(", 
        RowBox[{"9009", "*", 
         RowBox[{"Sqrt", "[", "85", "]"}]}], ")"}]}]}], ";"}], "\n", 
@@ -1505,7 +1507,7 @@ Cell[BoxData[
            RowBox[{
             RowBox[{"(", 
              RowBox[{
-              RowBox[{"-", "1"}], "+", "nu"}], ")"}], "**", "2"}], "*", 
+              RowBox[{"-", "1"}], "+", "nu"}], ")"}], "^", "2"}], "*", 
            "nu"}]}], ")"}]}], ")"}], "/", "4095"}]}], ";"}], "\n", 
    RowBox[{
     RowBox[{
@@ -1525,7 +1527,7 @@ Cell[BoxData[
            RowBox[{
             RowBox[{"(", 
              RowBox[{
-              RowBox[{"-", "1"}], "+", "nu"}], ")"}], "**", "2"}], "*", 
+              RowBox[{"-", "1"}], "+", "nu"}], ")"}], "^", "2"}], "*", 
            "nu"}]}], ")"}]}], ")"}], "/", "35"}]}], ";"}], "\n", 
    RowBox[{
     RowBox[{
@@ -1544,14 +1546,22 @@ Cell[BoxData[
            RowBox[{
             RowBox[{"(", 
              RowBox[{
-              RowBox[{"-", "1"}], "+", "nu"}], ")"}], "**", "2"}], "*", 
-           "nu"}]}], ")"}]}], ")"}], "/", "63"}]}], 
-    ";"}]}]}]], "Input",ExpressionUUID->"8c86a3b6-709e-486e-97c5-a8cad1c8a182"]
+              RowBox[{"-", "1"}], "+", "nu"}], ")"}], "^", "2"}], "*", 
+           "nu"}]}], ")"}]}], ")"}], "/", "63"}]}], ";"}]}]}]], "Input",
+ CellLabel->
+  "In[530]:=",ExpressionUUID->"8c86a3b6-709e-486e-97c5-a8cad1c8a182"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"hHat", "[", 
+   RowBox[{"_", ",", "_", ",", "_"}], "]"}], ":=", "0"}]], "Input",
+ CellLabel->"In[505]:=",ExpressionUUID->"8c72d6e0-b6a0-464f-83d1-f00ff605cf31"]
 },
 WindowSize->{1654, 863},
-WindowMargins->{{107, Automatic}, {Automatic, -1024}},
+WindowMargins->{{473, Automatic}, {Automatic, -1058}},
 PrivateNotebookOptions->{"FileOutlineCache"->False},
 FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (March 18, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"6fba8062-5b61-4654-bb7b-bdcfe1d07d9e"
 ]
+
