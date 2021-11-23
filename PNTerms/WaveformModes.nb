@@ -11,8 +11,8 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"-", "5"}], "/", 
       RowBox[{"(", 
-       RowBox[{"14", "*", "sqrt", 
-        RowBox[{"(", "6", ")"}]}], ")"}]}]}], ";"}], "\n", 
+       RowBox[{"14", "*", 
+        RowBox[{"Sqrt", "[", "6", "]"}]}], ")"}]}]}], ";"}], "\n", 
    RowBox[{
     RowBox[{
      RowBox[{"hHat", "[", 
@@ -1545,8 +1545,8 @@ Cell[BoxData[
             RowBox[{"(", 
              RowBox[{
               RowBox[{"-", "1"}], "+", "nu"}], ")"}], "**", "2"}], "*", 
-           "nu"}]}], ")"}]}], ")"}], "/", "63"}]}], ";"}]}]}]], "Input",
- CellLabel->"In[426]:=",ExpressionUUID->"8c86a3b6-709e-486e-97c5-a8cad1c8a182"]
+           "nu"}]}], ")"}]}], ")"}], "/", "63"}]}], 
+    ";"}]}]}]], "Input",ExpressionUUID->"8c86a3b6-709e-486e-97c5-a8cad1c8a182"]
 },
 WindowSize->{1654, 863},
 WindowMargins->{{107, Automatic}, {Automatic, -1024}},
